@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6c50aa381d6a5a87bc6597eaee5a180, type: 3}
   m_Name: SwarmSettings
   m_EditorClassIdentifier: 
-  maxSpeed: 4
-  cohesionWeight: 1
-  alignmentWeight: 1
-  separationWeight: 2.5
-  neighborRadius: 8
+  maxSpeed: 8
+  cohesionWeight: 2
+  alignmentWeight: 2
+  separationWeight: 5
+  searchWeight: 1
+  obstacleWeight: 100
+  neighborRadius: 3
   separationRadius: 1.5
+  targets: []
