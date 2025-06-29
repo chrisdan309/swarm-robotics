@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3363672354367023006}
   - component: {fileID: 1018992201887316656}
   - component: {fileID: 6125259067583660628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,6 +120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  swarmSettings: {fileID: 11400000, guid: 1a0fd4e19ab856545b6362ff92bba6e0, type: 2}
 --- !u!54 &6125259067583660628
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -142,8 +143,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
